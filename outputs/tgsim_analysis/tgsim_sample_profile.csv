@@ -1,0 +1,20 @@
+indicator,value,unit,interpretation
+dataset,TGSIM Foggy Bottom Trajectories,,FHWA public trajectory dataset used as the physically grounded analysis layer.
+sample_requested_rows,50000,rows,Configured API sample limit.
+sample_returned_rows,50000,rows,Rows returned by the Socrata API sample query.
+official_total_rows,2492261,rows,Cached row count in the official column metadata.
+columns,12,columns,Available fields in the trajectory CSV.
+unique_road_users_in_sample,472,ids,Unique road-user IDs observed in the sample.
+time_min,60.20,s,Start time of sampled rows relative to run start.
+time_max,210.00,s,End time of sampled rows relative to run start.
+sample_duration,149.80,s,Time span covered by this bounded sample.
+sample_frequency,0.1,s,Official trajectory interval described by TGSIM metadata.
+physical_position_fields,"xloc_kf, yloc_kf",meters,Global reference-image coordinates after Kalman filtering.
+speed_fields,"speed_kf_x, speed_kf_y",m/s,Velocity components; scalar speed is derived as sqrt(x^2 + y^2).
+acceleration_fields,"acceleration_kf_x, acceleration_kf_y",m/s^2,Acceleration components available for future safety analysis.
+road_user_type_field,type_most_common,coded class,"0 pedestrian, 1 bicycle, 2 scooter, 3 passenger car, 4 automated vehicle, 5 motorcycle, 6 bus, 7 truck."
+lane_or_region_field,lane_kf,region id,46 unique lane/region IDs observed in sample.
+sample_vehicle_row_share,66.79,%,"Rows for motor vehicles only: passenger car, AV, motorcycle, bus, truck."
+sample_median_speed_kmh,3.80,km/h,Median scalar speed from official m/s velocity components.
+sample_p75_speed_kmh,7.75,km/h,Upper quartile scalar speed from official m/s velocity components.
+largest_sample_class,passenger_car (32994 sample rows),,Most common road-user type in the sample.

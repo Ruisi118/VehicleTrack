@@ -1,0 +1,7 @@
+candidate,segment_group,sample_count,reference_distance_m,median_rel_error_pct,mean_rel_error_pct,p75_rel_error_pct,max_rel_error_pct
+control,near,18,25.0,6.51,5.56,7.89,9.76
+control,mid,10,52.0,11.93,13.21,18.09,25.39
+control,far,25,210.0,53.22,48.48,58.08,66.19
+experimental,near,18,25.0,6.51,5.56,7.89,9.76
+experimental,mid,10,52.0,11.93,13.21,18.09,25.39
+experimental,far,26,210.0,45.81,44.27,56.55,68.01

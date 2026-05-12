@@ -1,0 +1,15 @@
+{
+  "video": "/Users/drs/Desktop/NYU/Second Year/Urban_Computing_and_AI/AI-Computing/project/data/video.mp4",
+  "calibration": "/Users/drs/Desktop/NYU/Second Year/Urban_Computing_and_AI/AI-Computing/project/calibration/video.calibration.json",
+  "detector": "fasterrcnn_resnet50_fpn_coco",
+  "tracker": "iou_greedy",
+  "max_frames": 1501,
+  "score_threshold": 0.7,
+  "iou_threshold": 0.3,
+  "max_missed": 20,
+  "fps": 25.0,
+  "width": 1280,
+  "height": 720,
+  "start_frame": 0,
+  "start_sec": 0.0
+}

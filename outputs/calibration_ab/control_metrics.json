@@ -1,0 +1,29 @@
+{
+  "rows": 8285,
+  "roi_rows": 7335,
+  "speed_rows": 5672,
+  "mean_speed_kmh": 75.98094091476011,
+  "median_speed_kmh": 77.0210468969,
+  "speed_source_rows": {
+    "cross_segment_smoothed": 24,
+    "filtered_outlier": 1611,
+    "same_segment": 5648,
+    "unavailable": 1002
+  },
+  "segment_rows": {
+    "far_two_lane": 5367,
+    "mid_two_lane": 1187,
+    "near_two_lane": 781,
+    "outside_calibrated_area": 950
+  },
+  "filtered_outlier_by_segment": {
+    "far_two_lane": 1547,
+    "mid_two_lane": 52,
+    "near_two_lane": 12
+  },
+  "speed_rows_by_segment": {
+    "far_two_lane": 3772,
+    "mid_two_lane": 1132,
+    "near_two_lane": 768
+  }
+}

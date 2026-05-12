@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "run": {
+    "video": "/Users/drs/Desktop/NYU/Second Year/Urban_Computing_and_AI/AI-Computing/project/data/video.mp4",
+    "detector": "fasterrcnn_resnet50_fpn_coco",
+    "tracker": "iou_greedy",
+    "start_frame": 0,
+    "end_frame": 1500,
+    "start_sec": 0.0,
+    "end_sec": 60.0,
+    "processed_frames": 1501,
+    "processed_duration_sec": 60.04
+  },
+  "processing": {
+    "elapsed_sec": 1237.4089194159023,
+    "processing_fps": 1.2130185716687103,
+    "video_fps": 25.0,
+    "realtime_ratio": 0.048520742866748415,
+    "offline_only": true
+  },
+  "detections": {
+    "mean_per_frame": 5.584943371085942,
+    "min_per_frame": 2,
+    "max_per_frame": 11,
+    "total_detection_rows": 8383,
+    "label_counts_rows": {
+      "bus": 22,
+      "car": 7899,
+      "motorcycle": 151,
+      "truck": 311
+    }
+  },
+  "tracking": {
+    "tracker": "iou_greedy",
+    "total_tracks_created": 89,
+    "unique_tracks_in_csv": 89,
+    "roi_tracks": 19,
+    "trajectory_rows": 8383,
+    "manual_id_switch_review_required": true
+  },
+  "speed": {
+    "roi_only": true,
+    "point": "bbox_bottom_midpoint",
+    "unit": "km/h",
+    "count": 555,
+    "roi_rows": 574,
+    "mean": 101.09720158769302,
+    "median": 100.67655842607458,
+    "min": 5.19409545514587,
+    "p25": 94.27502001004747,
+    "p75": 108.46938848638317,
+    "max": 136.82293855208195,
+    "histogram": [
+      {
+        "range": "0-50",
+        "min": 0,
+        "max": 50,
+        "count": 3
+      },
+      {
+        "range": "50-70",
+        "min": 50,
+        "max": 70,
+        "count": 8
+      },
+      {
+        "range": "70-90",
+        "min": 70,
+        "max": 90,
+        "count": 56
+      },
+      {
+        "range": "90-110",
+        "min": 90,
+        "max": 110,
+        "count": 358
+      },
+      {
+        "range": "110-130",
+        "min": 110,
+        "max": 130,
+        "count": 129
+      },
+      {
+        "range": "130-160",
+        "min": 130,
+        "max": 160,
+        "count": 1
+      },
+      {
+        "range": "160+",
+        "min": 160,
+        "max": null,
+        "count": 0
+      }
+    ],
+    "calibration_uncertainty": "local Homography ROI; absolute speed depends on lane-width/depth assumptions"
+  },
+  "calibration": {
+    "path": "/Users/drs/Desktop/NYU/Second Year/Urban_Computing_and_AI/AI-Computing/project/calibration/video.calibration.json",
+    "video_name": "video.mp4",
+    "frame_idx": 633,
+    "timestamp": 25.32,
+    "width_m": 3.5,
+    "depth_m": 36.0,
+    "point_order": "near-left, near-right, far-right, far-left",
+    "source_points": [
+      [
+        486.0,
+        678.0
+      ],
+      [
+        915.0,
+        671.0
+      ],
+      [
+        725.0,
+        454.0
+      ],
+      [
+        407.0,
+        485.0
+      ]
+    ],
+    "destination_points": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        3.5,
+        0.0
+      ],
+      [
+        3.5,
+        36.0
+      ],
+      [
+        0.0,
+        36.0
+      ]
+    ]
+  },
+  "artifacts": {
+    "annotated_video": "annotated.mp4",
+    "trajectories_csv": "trajectories.csv",
+    "config_json": "config.json",
+    "metrics_json": "metrics.json"
+  },
+  "legacy_summary": {
+    "processed_frames": 1501,
+    "elapsed_sec": 1237.4089194159023,
+    "processing_fps": 1.2130185716687103,
+    "total_tracks": 89,
+    "trajectory_rows": 8383,
+    "calibration_roi_rows": 574,
+    "mean_detections_per_frame": 5.584943371085942,
+    "mean_speed_kmh": 101.09720158769302,
+    "max_speed_kmh": 136.82293855208195
+  }
+}

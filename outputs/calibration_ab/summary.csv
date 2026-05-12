@@ -1,0 +1,3 @@
+candidate,calibration,rows,roi_rows,speed_rows,mean_speed_kmh,median_speed_kmh,filtered_outlier_rows,unavailable_rows
+control,/Users/drs/Desktop/NYU/Second Year/Urban_Computing_and_AI/AI-Computing/project/calibration/video.multisegment.calibration.json,8285,7335,5672,75.98,77.02,1611,1002
+experimental,/Users/drs/Desktop/NYU/Second Year/Urban_Computing_and_AI/AI-Computing/project/calibration/video.far-split.experimental.calibration.json,8285,7335,5646,78.84,80.43,1637,1002

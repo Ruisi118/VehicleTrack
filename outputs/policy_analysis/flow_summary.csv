@@ -1,0 +1,8 @@
+metric,value,unit,interpretation
+counting_line_y_m,27.00,m,Virtual line location in projected road coordinates.
+total_crossings,32,vehicles,Unique track crossings of the counting line.
+flow_per_min,32.00,vehicles/min,Pilot-window flow rate from the 60-second clip.
+car_crossings,30,vehicles,Counting-line crossings for dominant class car.
+motorcycle_crossings,1,vehicles,Counting-line crossings for dominant class motorcycle.
+truck_crossings,1,vehicles,Counting-line crossings for dominant class truck.
+toward_camera_crossings,32,vehicles,Counting-line crossings moving toward_camera.

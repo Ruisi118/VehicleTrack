@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Local caches (torch / matplotlib weights regenerate automatically)
+.cache/
+
+# Not part of the public repo — docs, drafts, slides, submission notebook
+docs/
+materials/
+slide/
+submission/
+
+# outputs/ — keep only the best run + small text-only deliverables; drop large
+# intermediate runs, debug images, and the alternative submission run.
+outputs/*.jpg
+outputs/run_multiseg_1min/
+outputs/run_bytetrack_1min/
+outputs/submission_full_pipeline/
+
+# Keep baseline run for comparison but strip its annotated.mp4 (~55 MB)
+outputs/run_baseline_1min/annotated.mp4
+
+# Keep speed sanity-check CSVs but strip the 32 reference frames (~7.5 MB)
+outputs/speed_sanity_check/*.jpg

@@ -1,0 +1,11 @@
+dataset,resource_name,resource_type,public_evidence,contains_raw_video,contains_frame_level_detection_labels,pipeline_validation_use,notes
+TGSIM Foggy Bottom Trajectories,trajectory_table_csv,processed_trajectory_csv,Third Generation Simulation Data (TGSIM) Foggy Bottom Trajectories,no,no,traffic_analysis_anchor_only,"Socrata table contains processed trajectories with physical position, speed, acceleration, lane/region, and type fields."
+TGSIM Foggy Bottom Trajectories,Foggy_Bottom_Annotation on Regions.zip,reference_or_region_support,Foggy_Bottom_Annotation on Regions.zip,no,no,calibration_context_only,"Maps lane/region IDs to reference image; useful for analysis, not detector validation."
+TGSIM Foggy Bottom Trajectories,Foggy_Bottom_boundaries.txt,reference_or_region_support,Foggy_Bottom_boundaries.txt,no,no,calibration_context_only,Supports metric coordinate interpretation and lane/region mapping.
+TGSIM Foggy Bottom Trajectories,TGSIM-Foggy Bottom-Data Dictionary.xlsx,reference_or_region_support,TGSIM-Foggy Bottom-Data Dictionary.xlsx,no,no,calibration_context_only,Explains fields and units.
+TGSIM Foggy Bottom Trajectories,Reference_Image_Foggy Bottom.png,reference_or_region_support,Reference_Image_Foggy Bottom.png,no,no,calibration_context_only,Supports metric coordinate interpretation and lane/region mapping.
+TGSIM I-395 Trajectories,trajectory_table_csv,processed_trajectory_csv,Third Generation Simulation Data (TGSIM) I-395 Trajectories,no,no,traffic_analysis_anchor_only,"Socrata table contains processed trajectories with physical position, speed, acceleration, lane/region, and type fields."
+TGSIM I-395 Trajectories,I395_boundaries.csv,reference_or_region_support,I395_boundaries.csv,no,no,calibration_context_only,Supports metric coordinate interpretation and lane/region mapping.
+TGSIM I-395 Trajectories,I395_ref_image.png,reference_or_region_support,I395_ref_image.png,no,no,calibration_context_only,
+TGSIM I-395 Trajectories,I395_Annotation on Regions.zip,reference_or_region_support,I395_Annotation on Regions.zip,no,no,calibration_context_only,"Maps lane/region IDs to reference image; useful for analysis, not detector validation."
+TGSIM I-395 Trajectories,TGSIM - Data Dictionary - I395.xlsx,reference_or_region_support,TGSIM - Data Dictionary - I395.xlsx,no,no,calibration_context_only,Explains fields and units.

@@ -1,0 +1,10 @@
+candidate,segment,rows,filtered_outlier_rows,speed_rows
+control,far_two_lane,5367,1547,3772
+control,mid_two_lane,1187,52,1132
+control,near_two_lane,781,12,768
+control,outside_calibrated_area,950,0,0
+experimental,far_lower_two_lane,1018,823,192
+experimental,far_upper_two_lane,4349,750,3554
+experimental,mid_two_lane,1187,52,1132
+experimental,near_two_lane,781,12,768
+experimental,outside_calibrated_area,950,0,0

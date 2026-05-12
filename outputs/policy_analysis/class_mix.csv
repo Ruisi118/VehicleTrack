@@ -1,0 +1,5 @@
+label,detection_rows,detection_row_share_pct,dominant_track_count,dominant_track_share_pct
+bus,18,0.22,3,4.92
+car,7821,94.40,51,83.61
+motorcycle,147,1.77,1,1.64
+truck,299,3.61,6,9.84

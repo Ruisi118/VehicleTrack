@@ -1,0 +1,8 @@
+road_user_type,sample_rows,sample_row_share_pct,unique_ids_in_sample
+bicycle,234,0.47,7
+bus,140,0.28,1
+motorcycle,66,0.13,4
+passenger_car,32994,65.99,100
+pedestrian,16263,32.53,355
+scooter,110,0.22,2
+truck,193,0.39,3

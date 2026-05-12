@@ -1,0 +1,4 @@
+segment,sample_count,reference_distance_m,median_rel_error_pct,mean_rel_error_pct,p75_rel_error_pct,max_rel_error_pct,filtered_outlier_rows,roi_rows,interpretation
+near_two_lane,18,25.0,6.11,5.21,7.65,9.76,12,781,Validated near-segment lane-marking transit sanity check; this is the strongest local speed evidence.
+mid_two_lane,10,52.0,11.93,12.95,18.29,25.39,52,1187,"Diagnostic only: moderate error; useful for stability assessment, not independent absolute validation."
+far_two_lane,24,210.0,53.96,48.45,58.87,67.18,1551,5367,Diagnostic only: high error and many filtered outliers indicate far-field Homography uncertainty.

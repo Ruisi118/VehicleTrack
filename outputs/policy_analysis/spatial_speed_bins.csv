@@ -1,0 +1,9 @@
+world_y_bin,rows,speed_rows,median_speed_kmh,p25_speed_kmh,p75_speed_kmh,filtered_outlier_rows,unavailable_rows,confidence_note
+near_0_27m,781,768,102.61,89.41,118.92,12,1,higher
+mid_27_45m,320,297,145.22,123.71,158.75,22,1,higher
+mid_45_63m,355,354,118.58,100.77,132.97,0,1,higher
+mid_63_81m,512,481,84.39,70.32,100.48,30,1,higher
+far_81_150m,547,14,170.04,105.94,175.52,532,1,lower_far_field
+far_150_220m,684,86,162.37,144.99,169.08,595,3,lower_far_field
+far_220_300m,1457,1110,99.30,64.37,140.33,343,4,lower_far_field
+far_300_369m,2679,2554,29.30,13.44,54.23,81,44,lower_far_field

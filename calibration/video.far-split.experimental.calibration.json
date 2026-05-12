@@ -1,0 +1,83 @@
+{
+  "calibration_type": "multi_segment",
+  "calibration_frame_idx": 633,
+  "calibration_timestamp": 25.32,
+  "created_at": "2026-05-10T00:00:00+00:00",
+  "fps": 25.0,
+  "frame_count": 1501,
+  "point_order": "near-left, near-right, far-right, far-left",
+  "video_name": "video.mp4",
+  "video_path": "/Users/drs/Desktop/NYU/Second Year/Urban_Computing_and_AI/AI-Computing/project/data/video.mp4",
+  "width_m": 7.0,
+  "notes": "Experimental A/B calibration. Near and mid segments are unchanged; the original far_two_lane segment is split into two local Homography segments to test whether far-field speed stability improves. This is not the default project calibration unless A/B diagnostics support adoption.",
+  "segments": [
+    {
+      "name": "near_two_lane",
+      "width_m": 7.0,
+      "depth_m": 27.0,
+      "source_points": [
+        [486.0, 678.0],
+        [1265.0, 618.0],
+        [1000.0, 500.0],
+        [407.0, 485.0]
+      ],
+      "destination_points": [
+        [0.0, 0.0],
+        [7.0, 0.0],
+        [7.0, 27.0],
+        [0.0, 27.0]
+      ]
+    },
+    {
+      "name": "mid_two_lane",
+      "width_m": 7.0,
+      "depth_m": 54.0,
+      "source_points": [
+        [407.0, 485.0],
+        [1000.0, 500.0],
+        [790.0, 345.0],
+        [235.0, 360.0]
+      ],
+      "destination_points": [
+        [0.0, 27.0],
+        [7.0, 27.0],
+        [7.0, 81.0],
+        [0.0, 81.0]
+      ]
+    },
+    {
+      "name": "far_lower_two_lane",
+      "width_m": 7.0,
+      "depth_m": 99.0,
+      "source_points": [
+        [235.0, 360.0],
+        [790.0, 345.0],
+        [700.0, 285.0],
+        [180.0, 295.0]
+      ],
+      "destination_points": [
+        [0.0, 81.0],
+        [7.0, 81.0],
+        [7.0, 180.0],
+        [0.0, 180.0]
+      ]
+    },
+    {
+      "name": "far_upper_two_lane",
+      "width_m": 7.0,
+      "depth_m": 189.0,
+      "source_points": [
+        [180.0, 295.0],
+        [700.0, 285.0],
+        [585.0, 210.0],
+        [125.0, 225.0]
+      ],
+      "destination_points": [
+        [0.0, 180.0],
+        [7.0, 180.0],
+        [7.0, 369.0],
+        [0.0, 369.0]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+metric,value,unit,interpretation
+threshold_kmh,105.00,km/h,"Hypothetical screening threshold, not a posted-limit claim."
+overspeed_event_tracks,17,tracks,Unique tracks with reliable near/mid speed above the threshold.
+reliable_speed_tracks,34,tracks,Tracks with at least one reliable near/mid speed row.
+overspeed_track_share,50.00,% of reliable-speed tracks,Track-level screening share above threshold.
+car_overspeed_tracks,16,tracks,Overspeed screening events for dominant class car.
+motorcycle_overspeed_tracks,1,tracks,Overspeed screening events for dominant class motorcycle.

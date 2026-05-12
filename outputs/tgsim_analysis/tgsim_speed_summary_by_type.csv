@@ -1,0 +1,8 @@
+road_user_type,speed_rows,median_speed_kmh,mean_speed_kmh,p25_speed_kmh,p75_speed_kmh
+bicycle,234,6.68,8.02,3.27,13.43
+bus,140,0.15,0.65,0.10,0.39
+motorcycle,66,8.95,11.19,8.42,15.48
+passenger_car,32994,0.13,9.67,0.03,15.86
+pedestrian,16263,5.49,5.06,3.76,6.81
+scooter,110,20.32,19.36,15.71,23.60
+truck,193,18.75,20.42,12.38,24.81

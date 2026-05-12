@@ -1,0 +1,21 @@
+indicator,value,unit,interpretation
+trajectory_records,8285,rows,Derived tabular dataset size from the 60-second video.
+unique_track_ids,61,tracks,ByteTrack vehicle candidates in the derived dataset.
+mean_active_tracks_per_second,6.62,tracks/sec,Presence / occupancy proxy in the camera view; not a flow-rate crossing count.
+counting_line_y_m,27.00,m,Virtual counting line used for flow events.
+counting_line_crossings,32,vehicles,Unique track crossings of the virtual counting line.
+counting_line_flow_per_min,32.00,vehicles/min,Pilot-window flow rate at the counting line.
+overspeed_event_tracks,17,tracks,Unique tracks with reliable near/mid speed above the screening threshold.
+reliable_policy_speed_rows,1900,rows,Rows with displayed speed from near/mid segments only.
+reliable_policy_speed_share,22.93,% of rows,Conservative share usable for policy-facing speed analysis.
+excluded_from_policy_speed_share,77.07,% of rows,"Rows excluded from policy-grade speed claims because of confidence zoning, missing trajectory history, or implausible projection."
+median_reliable_policy_speed_kmh,105.86,km/h,Median near/mid displayed speed; far speeds are excluded from this policy indicator.
+p25_reliable_policy_speed_kmh,87.42,km/h,Lower quartile of reliable near/mid displayed speed.
+p75_reliable_policy_speed_kmh,126.41,km/h,Upper quartile of reliable near/mid displayed speed.
+row_share_above_105_kmh_near_mid,50.74,% of reliable near/mid speed rows,Hypothetical 65 mph screening threshold; not a posted-speed claim.
+track_share_above_105_kmh_near_mid,50.00,% of tracks with near/mid median speed,Track-level high-speed screening under the same hypothetical threshold.
+all_displayed_median_speed_kmh,77.24,km/h,"All displayed speeds, including far segment; useful for context but less policy-safe."
+filtered_outlier_rows,1615,rows,Rows where projected speed exceeded the plausibility cap and was hidden as -- km/h.
+unavailable_speed_rows,1006,rows,Rows without enough calibrated trajectory history for speed display.
+far_segment_row_share,64.78,% of rows,Coverage share in the least reliable speed zone.
+near_mid_segment_row_share,23.75,% of rows,Coverage share in the more policy-interpretable zones.

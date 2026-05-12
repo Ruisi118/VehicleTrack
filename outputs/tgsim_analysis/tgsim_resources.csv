@@ -1,0 +1,2 @@
+dataset,source,dataset_id,landing_page,csv_download_url,columns_url,approx_total_rows,license,project_use
+TGSIM Foggy Bottom Trajectories,"U.S. DOT / FHWA, ITS DataHub via data.transportation.gov",brzy-6zfh,https://data.transportation.gov/d/brzy-6zfh,https://data.transportation.gov/api/views/brzy-6zfh/rows.csv?accessType=DOWNLOAD,https://data.transportation.gov/api/views/brzy-6zfh/columns.json,2492261,U.S. Public Domain,Primary public trajectory analysis dataset; physical-coordinate anchor for VehicleTrack report.
