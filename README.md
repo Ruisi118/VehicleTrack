@@ -4,7 +4,7 @@ Video-to-trajectory traffic analysis for urban policy.
 
 > CUSP-GX 8873A Urban Computing and Artificial Intelligence · Spring 2026 · Final Project
 >
-> **Team VehicleTrack**: Ruisi Dai (rd3686) · Tianshu Shi (ts5453) · Yijie Tang (yt2973)
+> **Team**: Ruisi Dai (rd3686) · Tianshu Shi (ts5453) · Yijie Tang (yt2973)
 
 VehicleTrack is an offline pipeline that converts fixed-camera roadway video into structured traffic data: trajectories, speeds (with confidence labels), counts, and policy indicators. It pairs a project-generated 60-second pilot clip with FHWA TGSIM Foggy Bottom as a public trajectory-analysis anchor.
 
