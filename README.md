@@ -2,7 +2,7 @@
 
 Video-to-trajectory traffic analysis for urban policy.
 
-> NYU CUSP — Urban Computing and AI · Team VehicleTrack · Snapshot 2026-05-10
+> CUSP-GX 8873A Urban Computing and Artificial Intelligence · Spring 2026 · Final Project
 
 VehicleTrack is an offline pipeline that converts fixed-camera roadway video into structured traffic data: trajectories, speeds (with confidence labels), counts, and policy indicators. It pairs a project-generated 60-second pilot clip with FHWA TGSIM Foggy Bottom as a public trajectory-analysis anchor.
 
